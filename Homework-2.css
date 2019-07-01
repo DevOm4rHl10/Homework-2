@@ -5,5 +5,30 @@
 .column {
   flex: 33.33%;
   padding: 5px;
-
 }
+h1.boxed,
+h3.boxed {
+border: 100px;
+background-color: orange;
+}
+.black-box {
+	border-height:100px;
+	border-width: 100px;
+	border-left:20px;
+	background-color: black;
+	color:white
+}
+.white-box {
+  width:200px;
+  text-align:center;
+  display:block;
+  background-color: white;
+  border: 1px solid white;
+  margin-right: 10px;
+  margin-bottom: 1px;
+  float:left;
+}
+.first-image {
+border-radius: 100px;
+}
+
