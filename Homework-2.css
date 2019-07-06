@@ -1,25 +1,48 @@
 .background {
 	background-color: grey;
 }
-h1,
-h3 {
+h1 {
 	background-color: orange;
-	padding: 5px 10px;
+	padding: 5px 20px;
 	font-style: bold;
 	border: 1px transparent;
-	margin :1rem 10rem;
+	margin-top: 0px;
 	border-radius: 1px;
 	border-width: 100px;
     border-height:25px;
 }
-.white-box {
+h3 {
+	background-color: orange;
+	padding: 5px 5px 5px 10px;
+	font-style: bold;
+	border: 1px transparent;
+	margin: 10px 15px;
+	width:200px;
 
+}
+.white-box {
+background-color: white;
+color:black;
+width: 200px;
 }
 .orange-box {
-
+ background-color: orange;
+ font-style:bold;
+ border:2px solid black;
+ width:55px;
+ padding-top:5px;
+ padding-bottom:5px;
+ padding-left: 10px;
+ padding-right:15px;
+ height:30px;
+ border-radius: 5px 30px 30px 5px;
 }
 .paragraph {
-	font-color: white;
+	color: white;
 	background-color: black;
 	margin: 0px 10px 10px 5px;
+	padding-right:5px; 
+	padding-left:5px;
+	padding-top:5px;
+	padding-bottom:20px;
 }
