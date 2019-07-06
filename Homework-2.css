@@ -1,1 +1,25 @@
+.background {
+	background-color: grey;
+}
+h1,
+h3 {
+	background-color: orange;
+	padding: 5px 10px;
+	font-style: bold;
+	border: 1px transparent;
+	margin :1rem 10rem;
+	border-radius: 1px;
+	border-width: 100px;
+    border-height:25px;
+}
+.white-box {
 
+}
+.orange-box {
+
+}
+.paragraph {
+	font-color: white;
+	background-color: black;
+	margin: 0px 10px 10px 5px;
+}
