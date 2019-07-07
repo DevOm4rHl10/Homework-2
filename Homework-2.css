@@ -46,3 +46,58 @@ width: 200px;
 	padding-top:5px;
 	padding-bottom:20px;
 }
+
+
+.container {
+	display:grid;
+	grid-template: repeat(5, 1fr) / repeat(4, 1fr);
+	grid-template-areas: 
+		"a a b b"
+		"c f i l"
+		"d g j m"
+		"e h k m"
+	;
+
+}
+#one {
+grid-area: a;
+}
+#two {
+grid-area: b;
+}
+#three {
+grid-area: c;
+} 
+#four {
+grid-area: d;
+}
+#five {
+grid-area: e;
+}
+#six {
+grid-area: f;
+}
+#seven {
+grid-area: g;
+}
+#eight {
+grid-area: h;
+}
+#nine {
+grid-area: i;
+}
+#ten  {
+grid-area: j;
+}
+#eleven {
+grid-area: k;
+}
+#twelve {
+grid-area: l;
+}
+#thirteen {
+grid-area: m;
+}
+#fourteen {
+grid-area: n;
+}
